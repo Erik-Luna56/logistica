@@ -3,9 +3,9 @@ import React, { Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 
-import Image1 from '../../AssetsImg/slide01.jpg';
-import Image2 from '../../AssetsImg/slide02.jpg';
-import Image3 from '../../AssetsImg/slide03.jpg';
+import Image1 from '../../AssetsImg/img01.jpg';
+import Image2 from '../../AssetsImg/img02.jpg';
+import Image3 from '../../AssetsImg/img03.jpg';
 
 import Styles from './index.module.css';
 

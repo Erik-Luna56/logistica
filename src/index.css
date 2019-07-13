@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.carousel-inner{
+  height: calc(100vh - 66px);
+}
+
+.carousel-caption{
+  bottom: 30%;
+}
