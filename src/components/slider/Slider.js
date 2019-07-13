@@ -12,7 +12,7 @@ import Styles from './index.module.css';
 class Slider extends Component {
     render(){
         return (
-            <Carousel className="slider">
+            <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -24,6 +24,8 @@ class Slider extends Component {
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
+
+
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -36,6 +38,8 @@ class Slider extends Component {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
+
+
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -48,6 +52,7 @@ class Slider extends Component {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
+  
 </Carousel>
         )
     }

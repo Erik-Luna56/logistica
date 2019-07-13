@@ -4,7 +4,7 @@ import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import Slider from './components/slider/Slider';
-
+import Form from './components/Form/Index';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       </header>
       <Slider />
+      <Form />
      
     </div>
   );
