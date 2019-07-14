@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-import Styles from './index.module.css';
+//import Styles from './index.module.css';
 
 class Formu extends Component{
   render(){
